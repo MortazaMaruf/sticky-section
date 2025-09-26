@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* width: 100vw; */
+    font-family: arial;
+    position: relative;
+}
+
+.landing-page {
+    /* background: url(images/background-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: lightskyblue;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index:-1
+}
+
+.foregraound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    background: transparent;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.foregraound h1{
+    font-size:15vw;
+    color:white
+
+}
+
+.landing-page h1 {
+
+}
+
+.about-page {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightpink;
+    min-height: 100vh;
+    position:sticky;
+    top:0;
+}
+
+.about-page1 {
+    background: cyan;
+    min-height: 100vh;
+     position: sticky;
+    z-index: 999;
+    display: flex;
+    top:0;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about-page2 {
+    background: tomato;
+    min-height: 100vh;
+    position: sticky;
+    top:0;
+    z-index: 1999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about-page3 {
+    background: lightcoral;
+    min-height: 100vh;
+    position: sticky;
+    top:0;
+    z-index: 2999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-page4 {
+    background: lightgoldenrodyellow;
+    min-height: 100vh;
+    position: sticky;
+    top:0;
+    z-index: 3999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
